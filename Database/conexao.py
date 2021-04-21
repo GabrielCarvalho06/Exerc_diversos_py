@@ -10,9 +10,9 @@ conexao = mysql.connector.connect(
 cursor = conexao.cursor()
 print(conexao)
 
-#cursor.execute('create database aula8')
+'''cursor.execute('create database ')
 
-'''cursor.execute('show databases')
+cursor.execute('show databases')
 for x in cursor:
     print(x)
 
