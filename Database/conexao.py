@@ -11,7 +11,7 @@ cursor = conexao.cursor()
 print(conexao)
 
 #CREATE DATABASE
-'''cursor.execute('create database ')
+cursor.execute('create database ')
 
 cursor.execute('show databases')
 for x in cursor:
@@ -82,4 +82,3 @@ cursor.execute('SELECT nome from aluno where idade > 25')
 result = cursor.fetchall()
 for x in result:
     print(x)
-'''
